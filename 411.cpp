@@ -32,6 +32,6 @@ int main(){
     int n;
     cin >> n;
     n = n / 1000;
-    cout << "Co tat ca " << bold_on << Case2(n) + Case5(n)<< bold_off << " to hop!";
+    cout << "Co tat ca " <<Case2(n) + Case5(n)<< " to hop!";
     return 0;
 }
